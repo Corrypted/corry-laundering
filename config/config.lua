@@ -2,6 +2,8 @@ Config = {}
 
 Config.TimePerBag = .02 -- Seconds per bag
 
+Config.Debug = false
+
 Config.washers = {
     {
         id = 1,
