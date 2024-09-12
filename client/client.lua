@@ -3,7 +3,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 local target = exports.ox_target
 local inventory = exports.ox_inventory
 
-local magic = true
+local magic = Config.Debug
 
 local Debug = function()
     print("LINE:", debug.getinfo(2).currentline)
